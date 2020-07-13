@@ -50,3 +50,9 @@ numbers.forEach((add) => {
 )
 
 console.log(numbers)
+
+// numbers.map((add) => {
+//     return numbers.push(add +2);
+// }
+// )
+
