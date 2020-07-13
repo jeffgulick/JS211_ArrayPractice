@@ -41,3 +41,12 @@ console.log(carsInReverse.shift());
 //15
 console.log(carsInReverse.unshift('Buick'));
 console.log(carsInReverse);
+//16
+const numbers = [23, 45, 0, 2];
+
+numbers.forEach((add) => {
+    numbers.push(add + 2);
+}
+)
+
+console.log(numbers)
